@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(0, 0, 0, 0.406);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 30px;
+    background-color: #00635A;
+    height: 500px;
+    text-align: center;
+}
+
+.bloco-1 {
+    background-color: #00E3CC;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.bloco-2 {
+    background-color: #32A89C;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.bloco-3 {
+    background-color: #009688;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}

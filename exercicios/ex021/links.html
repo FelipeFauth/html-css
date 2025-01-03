@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(64, 255, 0);
+        }
+
+        a:hover {
+            color: blueviolet;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial::before {
+            content: '↦' ;
+        }
+
+        .especial::after {
+            content: '↤';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalisando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+        <li><a href="https://play.max.com/?&msclkid=c357a4519e6213b87136c2fbcd92fd96&utm_source=bing&utm_medium=cpc&utm_campaign=LATAM%7CBRA%7CBRA%7CPOR%7CLWR%7CPMX%7C0%7CBING%7CBR_CORE%7CEVERGREEN%7CCPA&utm_term=hbo%20max&utm_content=LATAM%7CBRA%7CBRA%7CLWR%7CPMX%7CEVG%7C0%7CCORE-HBO%20MAX&gclid=c357a4519e6213b87136c2fbcd92fd96&gclsrc=3p.ds" target="_blank" class="especial">Max</a></li>
+        <li><a href="https://www.crunchyroll.com/pt-br" target="_blank" class="especial">Crunchyroll</a></li>
+    </ul>
+</body>
+</html>
