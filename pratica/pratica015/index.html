@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Box-Sizing Exemplo</title>
+  <style>
+    .caixa {
+      width: 200px;
+      padding: 20px;
+      border: 5px solid black;
+      margin-bottom: 20px;
+      background-color: lightblue;
+    }
+
+    .content-box {
+      box-sizing: content-box; /* padrão */
+    }
+
+    .border-box {
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>box-sizing: content-box (padrão)</h2>
+  <div class="caixa content-box">
+    Largura final: 250px
+  </div>
+
+  <h2>box-sizing: border-box</h2>
+  <div class="caixa border-box">
+    Largura final: 200px
+  </div>
+
+</body>
+</html>
