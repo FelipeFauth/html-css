@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="style/media-query.css">
 </head>
-<body onresize="mudouTamanha()">
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">Menu</span>
@@ -37,7 +37,7 @@
     </main>
     <script>
  
-        function mudouTamanha() {
+        function mudouTamanho() {
             if (window.innerWidth >= 768) {
                 itens.style.display = 'block'
             } else {
@@ -45,15 +45,13 @@
             }
         }
 
-        let itens = document.getElementById ('itens')
-        function clickMenu() {
+      function clickMenu() {
         if (itens.style.display == 'block') {
             itens.style.display = 'none'
-        } else {
+        }else {
             itens.style.display = 'block'
         }
-       }
+      }
     </script>
-          
 </body>
 </html>
