@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    background: url('imagem/fundo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner {
+    background-color: transparent;
+    text-align: center;
+    width: 420px;
+    height: 350px;
+    padding: 45px 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
